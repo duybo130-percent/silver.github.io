@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.orange-color{
+   color: #E77B0F;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+}
+
+#header-menu ul li{
+    list-style: none;
+}
+
+#header-menu ul li a{
+    text-decoration: none;
+    color: #66BBE4;
+    margin: 15px;
+}
+
+.header-logo img{
+    width: 15%;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.header-search button{
+    color: white;
+    background-color: black;
+    margin-right: 20px;
+}
+
+/* content */
+
+#content{
+    display: flex;
+}
+
+.left-banner{
+    flex: 2;
+}
+
+.left-banner img{
+    width: 100%;
+    height: auto;
+    padding: 0 30px 0 60px;
+}
+
+.right-banner{
+    flex: 1;
+    margin-right: 150px;
+}
+
+.right-banner h1{
+    color: #69BAE1;
+}
+
+.right-banner div img{
+    margin-top: 12px;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.right-banner div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.right-banner div p{
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 25px;
+    text-align: justify;
+}
+
+/* content title */
+#content-title{
+    display: flex;
+    align-items: center;
+}
+
+#content-booking{
+    color: #07A1C7;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+#content-title div img{
+    flex: 1;
+    margin-left: 60px;
+    height: 500px;
+}
+
+.booking-infor{
+    flex: 1;
+    background-color: #E8E4E3;
+    padding: 150px 0;
+    line-height: 2;
+    height: 500px;
+    margin-left: 20px;  
+}
+
+.booking-infor h3,
+.booking-infor div{
+    display: flex;
+    margin-left: 50px;
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+
+/* feedback */
+
+#feedback-tourist{
+    padding-top: 50px;
+    color: #07A1C7;
+    text-align: center;
+}
+
+#feedback{
+    display: flex;
+    justify-content: center;
+}
+
+#feedback div{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 60px;
+}
+
+.avatar{
+    width: 60%;
+    border-radius: 100%;
+    margin-left: 65px;
+}
+
+.tour{
+    background-color: #E77B0F;
+    color: aliceblue;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.booking-infor label{
+    width: 150px;   
+}
+
+.booking-infor input{
+    width: 300px;
+    margin-right: 2px;
+}
+
+.div-ava{
+    width: 25%;
+    margin: 30px;
+}
+
+.div-ava h3, 
+.div-ava p
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.helo{
+    margin-top: 20px;
+    width: 35%;
+    margin-left: 5px;
+}
+
+/* footer */
+#footer{
+    background-color: #07A1C7;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    height: 200px;
+}
+
+.footer-content{
+    width: 30%;
+    text-align: left;
+    line-height: 2;
+    margin-left: 200px;
+}
+
+.copyright{
+    margin-left: 500px;
+}
